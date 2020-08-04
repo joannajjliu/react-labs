@@ -84,24 +84,5 @@ export function MovieDisplay(props: { item: Item }) {
         </CardActions>
       </Card>
     </Grid>
-    // <div className={`mt-4 col-xs-1 col-sm-4 ${styles.container}`}>
-    //   <Box
-    //     component="span"
-    //     display="block"
-    //     p={1}
-    //     m={1}
-    //     bgcolor="background.paper"
-    //     textOverflow="ellipsis"
-    //   >
-    //     <img
-    //       className={styles.image}
-    //       alt={item.original_title + " Image"}
-    //       src={"http://image.tmdb.org/t/p/w342/" + item.poster_path}
-    //     />
-    //     <div className={styles.middle}>
-    //       <div className={styles.text}>{item.overview}</div>
-    //     </div>
-    //   </Box>
-    // </div>
   );
 }

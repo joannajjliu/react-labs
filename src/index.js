@@ -16,7 +16,7 @@ ReactDOM.render(
       <Route path="/" exact>
         <App />
       </Route>
-      <Route path="/movies" exact>
+      <Route path="/movies">
         <MoviesHome />
       </Route>
       <Route path="/tictactoe">
